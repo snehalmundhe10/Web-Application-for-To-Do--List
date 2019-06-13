@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="todo_item.css">
+    </head> 
+<body>
+<div>  
+     
+     <div id ="main"  style="height:100%;width:100%">
+         <div id="header"> <h1>Stuff To Do !</h1>
+            <div id="username"><h1>*The Scriptors*</h1>                
+                       <h2>[Snehal & Ripan]</h2>
+            </div>
+        </div>
+        <ul class="navigator">
+        <li><button class="button" onclick="home()" style="margin:20px">Home</button></li>
+        <li><button class="button" onclick="today()" style="margin:20px;float:center">Today</button></li>
+        <li><button class="button" onclick="tomorrow()" style="margin:20px;" input-align="right">Tomorrow</button></li>
+        </ul>
+    </div>
+        <div id="ToDoHome">       
+             <div class="headerForToDo">  
+               <input  type="text" id="inputText" placeholder="Get This Done.....">
+               <span onclick="addNewElement()" class="btn">Add</span>
+             </div> 
+         <ul id="list">
+            <li class="defaultList">Complete AED Assignment</li>
+            <li class="defaultList">Complete AED Lab</li>
+            <li class="defaultList">Complete AED Quiz</li>
+            <li class="defaultList">Complete Web Design-Group Assignment</li>
+        </ul>
+       </div>              
+</div>  
+                 
+
+<script src="todo_item.js"></script>    
+ </body>
+ </html> 
